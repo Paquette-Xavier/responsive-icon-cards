@@ -25,7 +25,7 @@ body {
 
 .card-img {
   width: 17%;
-  position: relative;;
+  position: relative;
   transform: translateX(240%);
 }
 
@@ -42,6 +42,10 @@ p {
 
 .cards {
   padding-left: .5em;
+}
+
+.card {
+  margin: 0;
 }
 
 @media only screen and (min-width: 25em) {
