@@ -36,12 +36,12 @@ p {
 @media only screen and (min-width: 25em) {
 
   .card {
-    display: inline;
+    display: inline-block;
   }
 
   .card-img {
     transform: translateX(5%);
-    display: inline;
+    display: block;
     width: 13%;
   }
 
@@ -54,4 +54,17 @@ p {
   .cards {
     margin-top: 1em;
   }
+
+  .card + h2 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: .2em;
+  }
+
 }
