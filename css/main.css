@@ -42,9 +42,16 @@ p {
   .card-img {
     transform: translateX(5%);
     display: inline;
+    width: 13%;
   }
 
   .card-body {
-    transform: translate(20%, -110%);
+    transform: translate(20%, -120%);
+    margin-right: 6em;
+    margin-left: 1em;
+  }
+
+  .cards {
+    margin-top: 1em;
   }
 }
