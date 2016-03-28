@@ -1,4 +1,15 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
   box-sizing: border-box;
   font-family: sans-serif;
   font-weight: normal;
@@ -20,7 +31,7 @@ body {
 
 h2 {
   margin-bottom: 0;
-  margin-top: 1;
+  margin-top: 1em;
   font-weight: normal;
 }
 
@@ -70,6 +81,52 @@ p {
   * {
     margin: 0;
     padding: 0;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .card {
+    display: inline-block;
+    float: left;
+    width: 32%;
+    transform: translate(0%, 70%);
+  }
+
+  .card-img {
+    width: 25%;
+    display: block;
+    transform: translate(195%, -205%);
+  }
+
+  .card-body {
+    margin: 0;
+    margin-top: 1em;
+    padding: .23em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.5;
   }
 
 }
