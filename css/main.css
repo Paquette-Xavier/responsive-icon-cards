@@ -41,12 +41,12 @@ p {
 
   .card-img {
     transform: translateX(5%);
-    display: block;
+    display: inline-block;
     width: 13%;
   }
 
   .card-body {
-    transform: translate(20%, -120%);
+    transform: translate(20%, -90%);
     margin-right: 6em;
     margin-left: 1em;
   }
@@ -60,11 +60,16 @@ p {
   }
 
   p {
-    margin-bottom: 0;
+    margin: 0;
   }
 
   h2 {
     margin-bottom: .2em;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
   }
 
 }
