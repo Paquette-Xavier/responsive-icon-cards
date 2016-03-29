@@ -23,10 +23,14 @@ body {
   margin: 0;
 }
 
-.card-img img {
-  width: 17%;
+.card-img {
+  width: 50px;
   position: relative;
   transform: translateX(240%);
+}
+
+.card-img img {
+  margin: 0;
 }
 
 .card-body h2 {
@@ -49,6 +53,14 @@ body {
   margin: 0;
 }
 
+.fumarkbot {
+  display: none;
+}
+
+ul li {
+  list-style-type: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   html {
@@ -62,7 +74,7 @@ body {
     vertical-align: top;
   }
 
-  .card-img img {
+  .card-img {
     transform: translateX(5%);
     display: inline-block;
     width: 13%;
@@ -111,13 +123,13 @@ body {
     transform: translate(0%, 70%);
   }
 
-  .card-img img {
+  .card-img {
     width: 25%;
     display: block;
     transform: translate(195%, -205%);
   }
 
-  .card-body h2{
+  .card-body {
     margin: 0;
     margin-top: 1em;
     padding: .23em;
